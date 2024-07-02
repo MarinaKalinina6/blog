@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    background: #f6f5f5;
+}
+
+.header {
+    color: #2a1d06;
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.nav {
+    float: right;
+    font-size: 25px;
+    margin: 20px 20px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.leftColumn {
+    width: 75%;
+    float: left;
+}
+
+.rightColumn {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    overflow: hidden;
+}
+.contact{
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+    margin-top: 20px;
+}
+.text {
+    font-size: 20px;
+    word-wrap: break-word;
+    margin: 20px 20px;
+    flex-grow: 25;
+    overflow-x: hidden;
+    white-space: pre-line;
+}
+
+.post {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.img {
+    flex-grow: 3;
+    background-attachment: fixed
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.title {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b9a1a1;
+    text-decoration: underline;
+}
+
+.time {
+    font-size: 16px;
+    width: 20%;
+    margin: 20px 0px 0px 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.delete {
+    font-size: 150%;
+    position: absolute;
+    top: 80px;
+    right: 75px
+}
+
+.edit {
+    font-size: 150%;
+    position: absolute;
+    top: 80px;
+    right: 250px
+}
+
+.navigation {
+    color: #f6f5f5;
+
+    justify-content: center;
+    font-size: 25px;
+    margin: 70px 3px;
+    text-align: center;
+
+}
+
+.Blog_registration {
+    font-size: 30px;
+    margin: 30px;
+}
+
+
+.submit_edit {
+    margin: 5px 0px;
+    font-size: 18px;
+
+}
+
+.error_edit {
+    color: #e22521;
+    font-size: 24px;
+    margin: auto;
+}
+
+.name_add {
+    font-size: 180%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.name_name {
+    margin-left: 180px;
+    font-size: 100%;
+    padding: 10px;
+}
+
+.submit {
+    margin-left: 300px;
+    font-size: 100%;
+}
+
+.login {
+    font-size: 20px;
+    color: #443d13;
+    margin: 10px 0px;
+}
+
+.password {
+    margin: 10px 0px;
+    font-size: 20px;
+    color: #443d13;
+}
+
+.login_password {
+    margin: 0px auto;
+}
+
+.text_login {
+    font-size: 20px;
+}
+
+.submit_enter {
+    margin-top: 10px;
+}
+
+
+.error {
+    color: #e22521;
+    font-size: 20px;
+    margin: 30px 160px;
+
+}
+
+.author {
+    font-size: 20px;
+    margin: 0px 0px 50px 20px;
+}
+.container {
+    padding: 16px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+.registerBtn {
+    background-color: #e3caca;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerBtn:hover {
+    opacity:1;
+}
+.signIn {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.registerError{
+    color: #f57271;
+    font-size: 18px;
+}
